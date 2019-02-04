@@ -1,23 +1,16 @@
-const name = 'Max';
-let age = 29;
-const hasHobbies = true;
-
-age = 34;
-
-const summarizeUser = (userName, userAge, userHasHobby) => {
-  return (
-    'Name is ' +
-    userName +
-    ', age is ' +
-    userAge +
-    ' and the user has hobbies: ' +
-    userHasHobby
-  );
+const person = {
+  name: 'Mark',
+  age: 34,
+  greet() {
+    console.log('Hi, I am ' + this.name)
+  }
 }
 
-const add = (a, b) => a + b;
-const addOne = a => a + 1;
-const addRad = () => 1 + 1;
-// console.log(add(3, 5));
+const hobbies = ['Sports', 'Cooking', 'Eating'];
 
-console.log(summarizeUser(name, age, hasHobbies));
+console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+console.log(hobbies);
+
+hobbies.push('Learning');
+console.log(hobbies);
+hobbies = ['a', 'new', 'array'];
