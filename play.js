@@ -6,11 +6,14 @@ const person = {
   }
 }
 
-const hobbies = ['Sports', 'Cooking', 'Eating'];
+const printName = ({ name }) => {
+  console.log(name);
+}
+printName(person);
 
-console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
-console.log(hobbies);
+const { name, age } = person;
+console.log(name, age);
 
-hobbies.push('Learning');
-console.log(hobbies);
-hobbies = ['a', 'new', 'array'];
+const hobbies = ['Cooking', 'Learning', 'Eating', 'Gaming'];
+const [hob1, hob2] = hobbies;
+console.log(hob1, hob2);
