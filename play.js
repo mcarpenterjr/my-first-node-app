@@ -15,4 +15,4 @@ setTimeout(() => {
   }).then(text => {
     console.log(text);
   });
-}, 2000);
+}, 2000); 
