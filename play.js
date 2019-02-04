@@ -15,4 +15,9 @@ const summarizeUser = (userName, userAge, userHasHobby) => {
   );
 }
 
+const add = (a, b) => a + b;
+const addOne = a => a + 1;
+const addRad = () => 1 + 1;
+// console.log(add(3, 5));
+
 console.log(summarizeUser(name, age, hasHobbies));
