@@ -1,0 +1,19 @@
+{
+  "name": "node_course",
+  "version": "1.0.0",
+  "description": "Course examples for the Ultimate Node Course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.50:8080/MrPollard/node-course.git"
+  },
+  "author": "Mark N Carpenter Jr",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
