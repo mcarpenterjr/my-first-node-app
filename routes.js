@@ -3,7 +3,7 @@ const fs = require('fs');
 const requestHandler = (req, res) => {
   const url = req.url;
   const method = req.method; 
-  if (url === '/home') {
+  if (url === '/') {
     res.write('<html>');
     res.write('<head><title>Get DATA bitch</title></head>');
     res.write('<body><form action="/message" method="POST"><input type="text" name="message"><button type="submit">SEND</button></form></body>');
