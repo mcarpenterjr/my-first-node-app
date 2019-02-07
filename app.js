@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 // Set Pug as the templste engine
 app.set('view engine', 'pug');
-app.set('view', 'views');
+app.set('views', 'views');
 
 const adminData = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
